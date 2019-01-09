@@ -1,6 +1,6 @@
 # CS270 Python Bootcamp
 
-This bootcamp assumes you have already installed python. Below are some guides for how to go about installing python on your laptop. If you have any issues, please to not hesistate to post on Piazza or ask for help. You will need python for this class!
+This bootcamp assumes you have already installed python. Below are some guides for how to go about installing python on your laptop. If you have any issues, please do not hesistate to post on Piazza or ask for help in person before/after the bootcamp session. You will need python for this class!
 
 ## Downloading Python
 
