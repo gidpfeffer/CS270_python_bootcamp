@@ -19,10 +19,9 @@ names = [students[id_num].getName() for id_num in students.keys()]
 
 print(ai_course.getName() + " has " + str(len(students)) + " students and they are named " + str(names))
 
-# Importing python libraries, for example the math library
-
-# more information can be found at https://docs.python.org/3/library/math.html
+# Importing python standard libraries, for example the math library can be done as follows
 import math
+# more information can be found at https://docs.python.org/3/library/math.html
 
 # take logarithms with math library
 print(math.log2(1024))
