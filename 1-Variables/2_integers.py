@@ -10,6 +10,12 @@ print(lucky_number)
 # concatenating, must be a string, use str()
 print("My lucky number concatenated is: " + str(lucky_number))
 
+# No ++ operator to increment by one but other cool ways to do it
+index = 0
+index += 1
+# This is the same as : index = index+1
+# This works with all the operators so you can do +=, *=, -=, /=, %= to the same effect
+
 # there are two ways to exponentiate
 power = 3
 expo_1 = lucky_number**power
