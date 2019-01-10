@@ -3,7 +3,7 @@ cd into this directory
 run using: python main.py
 """
 
-# IMPORTAING CLASSES FROM OTHER FILES
+# IMPORTING CLASSES FROM OTHER FILES
 from Course import Course
 from Student import Student
 
@@ -28,3 +28,30 @@ print(math.log2(1024))
 
 # take cosines, sines, inverse trig, etc also with math library
 print(math.cos(math.pi))
+
+
+# Other ways to import, and common paradigms
+import FooBar
+
+# if we want the bar class
+bar = FooBar.Bar()
+# Or
+import FooBar as FB
+
+# we can now use FB instead of FooBar
+bar = FB.Bar()
+
+from FooBar import foo_bar as fb_generator
+
+foo, bar = fb_generator()
+
+# Worst practise but you will see it is to use the * operator to import everything
+from FooBar import *
+foo_bar()
+
+# Word of caution!!
+
+# beware of circular imports! Two file can't both import each other
+# That is Student can't import course while course imports student.
+# It will unintuitively throw a import not found error. Be careful with
+# excessively importing things.

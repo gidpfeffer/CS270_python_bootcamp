@@ -20,6 +20,8 @@ if len(sys.argv) != 2:
 
 filepath = sys.argv[1]
 
+# Using the with keyword means you do not have to worry about closing the file when you are done with it
+# the file is closed as soon as the program leaves the scope of the with statement
 with open(filepath) as f:
     for line in f:
         print(line)
