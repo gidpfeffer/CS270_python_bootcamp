@@ -24,4 +24,4 @@ filepath = sys.argv[1]
 # the file is closed as soon as the program leaves the scope of the with statement
 with open(filepath) as f:
     for line in f:
-        print(line)
+        print(line, end="")
